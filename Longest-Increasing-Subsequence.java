@@ -5,7 +5,7 @@ class Solution {
        for(int [] arr : dp){
         Arrays.fill(arr,-1);
        }
-       return ans(nums,0,-1,dp); 
+       return ans(nums,0,-1,dp);  
     }
 
     public int ans(int [] nums, int index, int prev, int[][] dp){
